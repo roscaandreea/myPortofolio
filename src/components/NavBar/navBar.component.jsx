@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Logo from '../../assets/icons/logo.webp';
 
+
 import './navBar.style.css';
 
 const NavBar = () => {
