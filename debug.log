@@ -1,0 +1,3 @@
+[1020/124636.463:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Andreea\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\69100860-5fe5-4848-bbfc-e1c9337f7692: The system cannot find the path specified. (0x3)
+[1020/124636.472:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/130805.467:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
