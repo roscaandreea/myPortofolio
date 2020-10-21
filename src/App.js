@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Roll from 'react-reveal/Roll';
+import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
 import Container from "react-bootstrap/Container";
 //import components
@@ -8,6 +9,7 @@ import NavBar from './components/NavBar/navBar.component';
 import Carousal from './components/carousal/carousal.component';
 import TitleMessage from './components/titleMessage/titleMessage.component';
 import About from './pages/about/about.component';
+import Skills from './pages/skills/skills.component';
 
 const  App = () => {
   return (
@@ -33,7 +35,15 @@ const  App = () => {
           </div>
         </Parallax>
        </div>
-     </div>
+       { /* Skills Section */}
+          <div>
+            <Container className="container-box rounded">
+                <Fade  duration={600}>
+                  <Skills />
+               </Fade>
+            </Container>
+          </div>
+       </div>
   );
 };
 
