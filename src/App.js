@@ -30,7 +30,7 @@ const  App = () => {
         >
           <div>
             <Container className="container-box rounded">
-                <Roll duration={500}>
+                <Roll duration={700}>
                   <About />
                </Roll>
             </Container>

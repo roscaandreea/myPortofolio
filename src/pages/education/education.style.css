@@ -8,10 +8,12 @@
   
   .jumbo_style {
     background-image: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
+    cursor: pointer;
   }
   
   .body-title-style {
     font-size: 25px;
     font-weight: 800;
+ 
   }
   
