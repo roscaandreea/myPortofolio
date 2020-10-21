@@ -38,7 +38,8 @@ const About = () => {
                                  <br />
                                  I'm excited to work with people to do things bigger than I could accomplish alone.
                                 <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-                                <br /> <br />
+                                <br /> 
+                                <br />
                             </Row>
                             <Row>
                                 { /* Social links */}

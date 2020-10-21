@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Roll from 'react-reveal/Roll';
 import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import { Parallax } from 'react-parallax';
 import Container from "react-bootstrap/Container";
 //import components
@@ -10,6 +11,7 @@ import Carousal from './components/carousal/carousal.component';
 import TitleMessage from './components/titleMessage/titleMessage.component';
 import About from './pages/about/about.component';
 import Skills from './pages/skills/skills.component';
+import EducationCertificates from './pages/education/education.component';
 
 const  App = () => {
   return (
@@ -39,8 +41,18 @@ const  App = () => {
           <div>
             <Container className="container-box rounded">
                 <Fade  duration={600}>
+                  <hr />
                   <Skills />
                </Fade>
+            </Container>
+          </div>
+          { /* Education and Certificates Section */}
+          <div>
+            <Container className="container-box rounded">
+                <Slide bottom  duration={600}>
+                  <hr />
+                  <EducationCertificates/>
+               </Slide>
             </Container>
           </div>
        </div>
