@@ -11,6 +11,7 @@ import Carousal from './components/carousal/carousal.component';
 import TitleMessage from './components/titleMessage/titleMessage.component';
 import About from './pages/about/about.component';
 import Skills from './pages/skills/skills.component';
+import Projects from './components/projects/projects.component';
 import EducationCertificates from './pages/education/education.component';
 
 const  App = () => {
@@ -53,6 +54,14 @@ const  App = () => {
                   <hr />
                   <EducationCertificates/>
                </Slide>
+            </Container>
+          </div>
+          <div>
+            <Container className="container-box rounded">
+                <Fade  duration={600}>
+                  <hr />
+                  <Projects />
+               </Fade>
             </Container>
           </div>
        </div>

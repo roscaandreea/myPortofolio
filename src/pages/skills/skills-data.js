@@ -25,6 +25,8 @@ import L_MATPLOTLIB from "../../assets/img/skills/matplotlib.svg";
 import L_SCIKIT_LEARN from "../../assets/img/skills/scikit_learn.svg";
 import L_PANDAS from "../../assets/img/skills/pandas.svg";
 import L_PLOTLY from "../../assets/img/skills/plotly.svg";
+import L_GRAPHQL from "../../assets/img/skills/GraphQL.svg";
+import L_D3 from "../../assets/img/skills/D3.png";
 
 
 export const skills = {
@@ -90,6 +92,12 @@ export const skills = {
             imgSrc: L_STYLED_COMPONENTS,
             skillName: "styled-components",
         },
+        {
+          link: "https://d3js.org/",
+          imgAltText: "D3.js",
+          imgSrc: L_D3,
+          skillName: "D3.js",
+      },
     ],
     backend: [
         {
@@ -103,6 +111,12 @@ export const skills = {
             imgAltText: "Express",
             imgSrc: L_EXPRESS,
             skillName: "Express",
+          },
+          {
+            link: "https://graphql.org/",
+            imgAltText: "GraphQL",
+            imgSrc: L_GRAPHQL,
+            skillName: "GraphQL",
           },
           {
             link: "https://www.djangoproject.com/",
