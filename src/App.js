@@ -5,6 +5,8 @@ import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import { Parallax } from 'react-parallax';
 import Container from "react-bootstrap/Container";
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions.js";
 //import components
 import NavBar from './components/NavBar/navBar.component';
 import Carousal from './components/carousal/carousal.component';
@@ -13,14 +15,20 @@ import About from './pages/about/about.component';
 import Skills from './pages/skills/skills.component';
 import Projects from './components/projects/projects.component';
 import EducationCertificates from './pages/education/education.component';
+import Contact from './pages/contact/contact.component';
+import Footer from './components/footer/footer.component';
 
 const  App = () => {
   return (
      <div className="App" style={{ position: "relative" }}>
-       { /* Home Section */ }
-       <NavBar />
        <Carousal />
        <TitleMessage />
+       { /* Home Section */ }
+       <NavBar />
+       <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      />       
        { /* About Section */ }
        <div>
        <Parallax
@@ -47,7 +55,7 @@ const  App = () => {
                </Fade>
             </Container>
           </div>
-          { /* Education and Certificates Section */}
+          { /* Education Section */}
           <div>
             <Container className="container-box rounded">
                 <Slide bottom  duration={600}>
@@ -56,6 +64,7 @@ const  App = () => {
                </Slide>
             </Container>
           </div>
+          {/* Projects and Certificates Section */}
           <div>
             <Container className="container-box rounded">
                 <Fade  duration={600}>
@@ -64,6 +73,18 @@ const  App = () => {
                </Fade>
             </Container>
           </div>
+          { /* Contact Section */}
+          <div>
+            <Container className="container-box rounded">
+                <Slide bottom  duration={600}>
+                  <hr />
+                  <Contact/>
+               </Slide>
+            </Container>
+          </div>
+          <hr />
+          <Footer />
+
        </div>
   );
 };
