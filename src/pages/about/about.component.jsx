@@ -50,13 +50,6 @@ const About = () => {
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="https://drive.google.com/file" target="_blank" rel="noopener noreferrer">
-                                            <Button className="m-2 btn" variant="outline-success">
-                                                My Resume
-                                            </Button>
-                                        </a>
-                                    </div>
-                                    <div>
                                         <a href="https://github.com/roscaandreea" target="_blank" rel="noopener noreferrer">
                                             <Button className="m-2 btn" variant="outline-dark">
                                                 GitHub
