@@ -15,7 +15,7 @@ const Carousal = () => {
                     <img
                         className="d-block w-100 custom_img"
                         src={Slide1}
-                        alt="First slide"
+                        alt="First Slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>

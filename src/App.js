@@ -80,7 +80,7 @@ const  App = () => {
                   <hr />
                   <Contact/>
                </Slide>
-            </Container>
+           </Container>
           </div>
           <hr />
           <Footer />

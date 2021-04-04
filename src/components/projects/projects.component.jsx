@@ -257,7 +257,7 @@ const Projects = () => {
                                 </UrlButton>
                                 <UrlButton
                                     href="https://github.com/roscaandreea/reactEventBookingApp"
-                                    target="_blank"
+                                    target="_black"
                                 >
                                     SOURCE CODE
                                 </UrlButton>
@@ -580,11 +580,8 @@ const Projects = () => {
                             </div>
                         </div>
                     </ImageEvent>
-
-
                 </Events>
             </Timeline>
-
         </div>
     );
 }

@@ -27,6 +27,7 @@ import L_PANDAS from "../../assets/img/skills/pandas.svg";
 import L_PLOTLY from "../../assets/img/skills/plotly.svg";
 import L_GRAPHQL from "../../assets/img/skills/GraphQL.svg";
 import L_D3 from "../../assets/img/skills/D3.png";
+import L_MATERIALUI from '../../assets/img/skills/material-ui.svg';
 
 
 export const skills = {
@@ -86,6 +87,12 @@ export const skills = {
             imgSrc: L_REACT_BOOTSTRAP,
             skillName: "React Bootstrap",
         },
+        { 
+          link: "https://material-ui.com/",
+          imgAltText: "Materia-UI",
+          imgSrc: L_MATERIALUI,
+          skillName: "Material-UI"
+       },
         {
             link: "https://styled-components.com/",
             imgAltText: "styled-components",
