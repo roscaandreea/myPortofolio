@@ -84,8 +84,7 @@ const Skills = () => {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </Col>
-  
+            </Col>  
             {/* Programming Languages */}
             <Col md={4}>
               <Card className="focus mt-2 mb-2">
@@ -142,4 +141,4 @@ const Skills = () => {
     );
   };
   
-  export default Skills;
+export default Skills;
