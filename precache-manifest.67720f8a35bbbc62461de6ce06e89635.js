@@ -1,51 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a28da091609267242c26ca66a40fdc6",
+    "revision": "1a76c2b748f43ce8feb99977e2784079",
     "url": "/myPortofolio/index.html"
   },
   {
-    "revision": "27a44436e58305555723",
-    "url": "/myPortofolio/static/css/main.a77c89d5.chunk.css"
+    "revision": "793c6c54d7c41d969fc1",
+    "url": "/myPortofolio/static/css/main.cacfa6b1.chunk.css"
   },
   {
-    "revision": "6da6126c502991386a73",
-    "url": "/myPortofolio/static/js/2.56962782.chunk.js"
+    "revision": "a2da58109402a635f6f8",
+    "url": "/myPortofolio/static/js/2.5098245f.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/myPortofolio/static/js/2.56962782.chunk.js.LICENSE.txt"
+    "url": "/myPortofolio/static/js/2.5098245f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "27a44436e58305555723",
-    "url": "/myPortofolio/static/js/main.e910b0d3.chunk.js"
+    "revision": "793c6c54d7c41d969fc1",
+    "url": "/myPortofolio/static/js/main.7257bf2f.chunk.js"
   },
   {
     "revision": "c8fe4c81453ed84817d6",
     "url": "/myPortofolio/static/js/runtime-main.f51fcd5b.js"
   },
   {
-    "revision": "c0ace61758da61f6ce89c0568d0e6540",
-    "url": "/myPortofolio/static/media/CE.c0ace617.webp"
+    "revision": "c9365fcea6843d03816565149cc41613",
+    "url": "/myPortofolio/static/media/CE.c9365fce.webp"
   },
   {
     "revision": "933a981e4ab760d41e7adabf394d4cf0",
     "url": "/myPortofolio/static/media/D3.933a981e.png"
   },
   {
-    "revision": "874254c3bca46e5352a9c5076d8dac54",
-    "url": "/myPortofolio/static/media/DS.874254c3.webp"
+    "revision": "7b130d86f55b91859d43ee53fba7c3b1",
+    "url": "/myPortofolio/static/media/DS.7b130d86.webp"
   },
   {
     "revision": "5bf8a3ca0bb6bfb41063cdd672be9ad9",
     "url": "/myPortofolio/static/media/GraphQL.5bf8a3ca.svg"
   },
   {
-    "revision": "45ff4c29181bf8b649a4f157040ec99b",
-    "url": "/myPortofolio/static/media/ML.45ff4c29.webp"
+    "revision": "16f9d888247fe9b09fef74690aed3a5b",
+    "url": "/myPortofolio/static/media/ML.16f9d888.webp"
   },
   {
-    "revision": "bf989778565c49da91f9e0ef13dbdc5c",
-    "url": "/myPortofolio/static/media/background.bf989778.webp"
+    "revision": "d06651695c97885190a6a080e33a20f9",
+    "url": "/myPortofolio/static/media/background.d0665169.webp"
   },
   {
     "revision": "ffded2381d25dd906406d6e07f91dea5",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortofolio/static/media/django.bcf22073.svg"
   },
   {
-    "revision": "16562ba390c108d482e2339f87d7ce15",
-    "url": "/myPortofolio/static/media/eventBooking.16562ba3.webp"
+    "revision": "201cbc27055108ac4ee9c0839627cd59",
+    "url": "/myPortofolio/static/media/eventBooking.201cbc27.webp"
   },
   {
     "revision": "c6bab64b183f96aa47077fd3db37afd0",
@@ -92,8 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortofolio/static/media/javascript.2d2e31cc.svg"
   },
   {
-    "revision": "51740791fbc2ef604e33af19e8287303",
-    "url": "/myPortofolio/static/media/logo.51740791.webp"
+    "revision": "b8d0cf95fd98c52626f19fff19cdeef2",
+    "url": "/myPortofolio/static/media/logo.b8d0cf95.webp"
+  },
+  {
+    "revision": "50a1df37d92b535588395fb5a59c2e3b",
+    "url": "/myPortofolio/static/media/material-ui.50a1df37.svg"
   },
   {
     "revision": "e6f67a2074fb02937303e588024fbf89",
@@ -128,8 +132,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortofolio/static/media/postgresql.d7c985e7.svg"
   },
   {
-    "revision": "13b6d0df44ccc57b0f74a1124a563321",
-    "url": "/myPortofolio/static/media/profile.13b6d0df.webp"
+    "revision": "00b4c7860b1fd57939f788b62f3003f6",
+    "url": "/myPortofolio/static/media/profile.00b4c786.webp"
   },
   {
     "revision": "146716bdf1a351db5705ec1e6a25ed08",
@@ -148,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortofolio/static/media/react.4009eef3.svg"
   },
   {
-    "revision": "d67311e84ba2e9dc19b6b7f6ae52c183",
-    "url": "/myPortofolio/static/media/recipeApp.d67311e8.webp"
+    "revision": "799515e813eb02f7c813ea121d663261",
+    "url": "/myPortofolio/static/media/recipeApp.799515e8.webp"
   },
   {
     "revision": "aa0a337603611296524a666b62a9ff23",
@@ -164,28 +168,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortofolio/static/media/scikit_learn.d724714f.svg"
   },
   {
-    "revision": "8bce7aef886c3872c218e0e6ef8bdccb",
-    "url": "/myPortofolio/static/media/slide1.8bce7aef.webp"
+    "revision": "2aa257b3e332916c38194597280245b7",
+    "url": "/myPortofolio/static/media/slide1.2aa257b3.webp"
   },
   {
-    "revision": "7256f309520276be70acd97720610bc6",
-    "url": "/myPortofolio/static/media/slide2.7256f309.webp"
+    "revision": "9a30c955268ee67d26433a7095dce33b",
+    "url": "/myPortofolio/static/media/slide2.9a30c955.webp"
   },
   {
-    "revision": "8e5b87b60151049a8df9ec0bd30978f0",
-    "url": "/myPortofolio/static/media/slide3.8e5b87b6.webp"
+    "revision": "ae93211e113f978754ef7a3adcd75a67",
+    "url": "/myPortofolio/static/media/slide3.ae93211e.webp"
   },
   {
     "revision": "e79a42b9281a3b30f1302d5452f9884f",
     "url": "/myPortofolio/static/media/styled-components.e79a42b9.svg"
   },
   {
-    "revision": "6c3e716c90caacfb47fa7bf9fb7a443f",
-    "url": "/myPortofolio/static/media/tempApp.6c3e716c.webp"
+    "revision": "823887a1ce1095c252269fda579bbd03",
+    "url": "/myPortofolio/static/media/tempApp.823887a1.webp"
   },
   {
-    "revision": "851a1181b2fd0ec1446b5342279cbafe",
-    "url": "/myPortofolio/static/media/toDoApp.851a1181.webp"
+    "revision": "f9f82bc848412b0f4000dc1507cb4238",
+    "url": "/myPortofolio/static/media/toDoApp.f9f82bc8.webp"
   },
   {
     "revision": "3de182d2120823fe49c27eeb1765c53a",
@@ -196,7 +200,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortofolio/static/media/uaic.f175bad3.svg"
   },
   {
-    "revision": "6594d7186356ac2ec4b69cc91d86db18",
-    "url": "/myPortofolio/static/media/watercolor4.6594d718.webp"
+    "revision": "ea5568b83ab26a9ef3abc8b2b6c709a1",
+    "url": "/myPortofolio/static/media/watercolor4.ea5568b8.webp"
   }
 ]);
