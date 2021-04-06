@@ -48,3 +48,4 @@ const EducationCertificates = () => {
 }
 
 export default EducationCertificates;
+
