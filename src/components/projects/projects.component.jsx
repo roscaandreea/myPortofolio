@@ -5,6 +5,7 @@ import Card from "react-bootstrap/Card";
 import './projects.style.css';
 
 //projects logo
+import L_ReactCovidTracker from "../../assets/img/projects/covid_tracker.webp";
 import L_ReactToDoApp from "../../assets/img/projects/toDoApp.webp";
 import L_EventBooking from "../../assets/img/projects/eventBooking.webp";
 import L_CloudEngineer from "../../assets/img/projects/CE.webp";
@@ -24,6 +25,7 @@ import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_Graphql from "../../assets/img/skills/GraphQL.svg";
 import L_D3 from "../../assets/img/skills/D3.png";
+import L_MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 
 const Projects = () => {
     return ( 
@@ -31,6 +33,85 @@ const Projects = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">Projects and Certificates</h1>
             <Timeline>
                 <Events>
+                    {/* Project: Covid Tracker App  */}
+                    <ImageEvent
+                        date="08/04/2021"
+                        className="text-center"
+                        text="React Covid Tracker App"
+                        src={L_ReactCovidTracker}
+                        alt="React Covid Tracker App"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <Accordion.Toggle
+                                            as={Card.Header}
+                                            eventKey="0"
+                                            className="p-2 text-center accordian-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </Accordion.Toggle>
+
+                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong> This is a Covid Tracker App created with React and Material UI
+                                                 which displays a statistic of the number of infections,recover and deaths globally and for each country.
+                                                <hr />
+                                                <strong>Features:</strong>
+                                                <ul className="list-styles pt-1">
+                                                    <li>Covid detector based on symptoms </li>
+                                                    <li>More diagrams</li>
+                                                </ul>
+                                                <hr />
+                                                <strong>Tech used:</strong>
+                                                <ul>
+                
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_REACT}
+                                                                alt="React"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                                React
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_MATERIAL_UI}
+                                                                alt="Material-UI"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                                Material-UI
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </Accordion.Collapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                                <UrlButton
+                                    href="https://github.com/roscaandreea/covid19Tracker"
+                                    target="_blank"
+                                >
+                                    SEE LIVE
+                                </UrlButton>
+                                <UrlButton
+                                    href="https://github.com/roscaandreea/covid19Tracker"
+                                    target="_blank"
+                                >
+                                    SOURCE CODE
+                                </UrlButton>
+                        
+                            </div>
+                        </div>
+                    </ImageEvent>
                     {/* Project: Todo App  */}
                     <ImageEvent
                         date="07/10/2020"
