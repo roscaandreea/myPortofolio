@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/myPortofolio/static/css/main.cacfa6b1.chunk.css",
-    "main.js": "/myPortofolio/static/js/main.7257bf2f.chunk.js",
-    "main.js.map": "/myPortofolio/static/js/main.7257bf2f.chunk.js.map",
+    "main.css": "/myPortofolio/static/css/main.46006c3a.chunk.css",
+    "main.js": "/myPortofolio/static/js/main.c646d237.chunk.js",
+    "main.js.map": "/myPortofolio/static/js/main.c646d237.chunk.js.map",
     "runtime-main.js": "/myPortofolio/static/js/runtime-main.f51fcd5b.js",
     "runtime-main.js.map": "/myPortofolio/static/js/runtime-main.f51fcd5b.js.map",
-    "static/js/2.5098245f.chunk.js": "/myPortofolio/static/js/2.5098245f.chunk.js",
-    "static/js/2.5098245f.chunk.js.map": "/myPortofolio/static/js/2.5098245f.chunk.js.map",
+    "static/js/2.f05a7ddd.chunk.js": "/myPortofolio/static/js/2.f05a7ddd.chunk.js",
+    "static/js/2.f05a7ddd.chunk.js.map": "/myPortofolio/static/js/2.f05a7ddd.chunk.js.map",
     "index.html": "/myPortofolio/index.html",
-    "precache-manifest.67720f8a35bbbc62461de6ce06e89635.js": "/myPortofolio/precache-manifest.67720f8a35bbbc62461de6ce06e89635.js",
+    "precache-manifest.e7faca1a925a6b5fe1ebc273734d6927.js": "/myPortofolio/precache-manifest.e7faca1a925a6b5fe1ebc273734d6927.js",
     "service-worker.js": "/myPortofolio/service-worker.js",
-    "static/css/main.cacfa6b1.chunk.css.map": "/myPortofolio/static/css/main.cacfa6b1.chunk.css.map",
-    "static/js/2.5098245f.chunk.js.LICENSE.txt": "/myPortofolio/static/js/2.5098245f.chunk.js.LICENSE.txt",
+    "static/css/main.46006c3a.chunk.css.map": "/myPortofolio/static/css/main.46006c3a.chunk.css.map",
+    "static/js/2.f05a7ddd.chunk.js.LICENSE.txt": "/myPortofolio/static/js/2.f05a7ddd.chunk.js.LICENSE.txt",
     "static/media/CE.webp": "/myPortofolio/static/media/CE.c9365fce.webp",
     "static/media/D3.png": "/myPortofolio/static/media/D3.933a981e.png",
     "static/media/DS.webp": "/myPortofolio/static/media/DS.7b130d86.webp",
@@ -19,6 +19,7 @@
     "static/media/ML.webp": "/myPortofolio/static/media/ML.16f9d888.webp",
     "static/media/background.webp": "/myPortofolio/static/media/background.d0665169.webp",
     "static/media/bootstrap-4.svg": "/myPortofolio/static/media/bootstrap-4.ffded238.svg",
+    "static/media/covid_tracker.webp": "/myPortofolio/static/media/covid_tracker.a5ece0db.webp",
     "static/media/css3.svg": "/myPortofolio/static/media/css3.3707da3c.svg",
     "static/media/django.svg": "/myPortofolio/static/media/django.bcf22073.svg",
     "static/media/eventBooking.webp": "/myPortofolio/static/media/eventBooking.201cbc27.webp",
@@ -60,8 +61,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f51fcd5b.js",
-    "static/js/2.5098245f.chunk.js",
-    "static/css/main.cacfa6b1.chunk.css",
-    "static/js/main.7257bf2f.chunk.js"
+    "static/js/2.f05a7ddd.chunk.js",
+    "static/css/main.46006c3a.chunk.css",
+    "static/js/main.c646d237.chunk.js"
   ]
 }
