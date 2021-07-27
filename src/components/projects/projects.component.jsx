@@ -125,7 +125,7 @@ const Projects = () => {
                                     SEE LIVE
                                 </UrlButton>
                                 <UrlButton
-                                    href="https://github.com/roscaandreea/covid19Tracker"
+                                    href="https://github.com/roscaandreea/freecodecamp-projects"
                                     target="_blank"
                                 >
                                     SOURCE CODE
