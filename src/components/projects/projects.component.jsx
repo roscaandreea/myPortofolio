@@ -6,6 +6,7 @@ import './projects.style.css';
 
 //projects logo
 import L_ReactCovidTracker from "../../assets/img/projects/covid_tracker.webp";
+import L_ReactProjectFreeCodeCamp from "../../assets/img/projects/frontendLibrariesAndDataVisualization.webp"
 import L_ReactToDoApp from "../../assets/img/projects/toDoApp.webp";
 import L_EventBooking from "../../assets/img/projects/eventBooking.webp";
 import L_CloudEngineer from "../../assets/img/projects/CE.webp";
@@ -33,6 +34,106 @@ const Projects = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">Projects and Certificates</h1>
             <Timeline>
                 <Events>
+                     {/* Projects: freeCodeCamp  */}
+                     <ImageEvent
+                        date="In progress..."
+                        className="text-center"
+                        text="freeCodeCamp Projects"
+                        src={L_ReactProjectFreeCodeCamp}
+                        alt="project freeCodecamp"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <Accordion.Toggle
+                                            as={Card.Header}
+                                            eventKey="0"
+                                            className="p-2 text-center accordian-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </Accordion.Toggle>
+
+                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong> Some interesting projects which are part of the curriculum for the Front End Libraries Certification and Data Visualization on freeCodeCamp.
+                                                <hr />
+                                                <strong>Features:</strong>
+                                                <ul className="list-styles pt-1">
+                                                    <li>Build new project from freeCodeCamp platform</li>
+                                                    <li>Upgraded projects already present</li>
+                                                </ul>
+                                                <hr />
+                                                <strong>Tech used:</strong>
+                                                <ul>
+                
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_REACT}
+                                                                alt="React"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                                React
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_D3}
+                                                                alt="D3.js"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                                D3.js
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML5"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                                HTML5
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS3"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                                CSS3
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </Accordion.Collapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                                <UrlButton
+                                    href="https://github.com/roscaandreea/freecodecamp-projects"
+                                    target="_blank"
+                                >
+                                    SEE LIVE
+                                </UrlButton>
+                                <UrlButton
+                                    href="https://github.com/roscaandreea/covid19Tracker"
+                                    target="_blank"
+                                >
+                                    SOURCE CODE
+                                </UrlButton>
+                        
+                            </div>
+                        </div>
+                    </ImageEvent>
                     {/* Project: Covid Tracker App  */}
                     <ImageEvent
                         date="08/04/2021"
@@ -55,13 +156,15 @@ const Projects = () => {
 
                                         <Accordion.Collapse eventKey="0" className="text-left">
                                             <Card.Body>
-                                                <strong>Description:</strong> This is a Covid Tracker App created with React and Material UI
-                                                 which displays a statistic of the number of infections,recover and deaths globally and for each country.
+                                                <strong>Description:</strong> This is a Covid Dashboard App created with React and Material UI
+                                                 which displaying with diagrams the number of infections,recover and deaths globally and for each country.
                                                 <hr />
                                                 <strong>Features:</strong>
                                                 <ul className="list-styles pt-1">
                                                     <li>Covid detector based on symptoms </li>
-                                                    <li>More diagrams</li>
+                                                    <li>Live no of infections by country</li>
+                                                    <li>Display number of people which is vacinated</li>
+                                                    <li>Use d3.js to upgrade the map</li>
                                                 </ul>
                                                 <hr />
                                                 <strong>Tech used:</strong>
