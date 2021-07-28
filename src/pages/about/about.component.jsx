@@ -24,23 +24,17 @@ const About = () => {
                         <Col xs={12} md={6}>
                             <Row className=" align-items-start p-2 my-details rounded">
                                 { /* description */}
-                                 Hi there! I am <strong>&nbsp;Andreea-Maria Rosca</strong>
+                                <p className="text">Hi there! I am <strong>&nbsp;Andreea-Maria Rosca</strong></p>
                                  <br />
-                                 A passionate programmer and a Learner, always looking for new challenges. I am interested in Full Stack Web Development with React.js, Redux, Express.js, Node.js, and MongoDb as my tech stack.
-                                 <br />
-                                 My second passion is Machine Learning and Data Visualization, which were discovered during faculty of Computer Science in Iasi.
-                                 <br />
+                                 <p className="text">A passionate programmer and a Learner, always looking for new challenges. I am interested in Full Stack Web Development with React.js, Redux, Express.js, Node.js, and MongoDb as my tech stack.</p>
+                                 <p className="text">My second passion is Machine Learning and Data Visualization, which were discovered during faculty of Computer Science in Iasi.
                                  I took several individual courses in this area of which to mention would be: 
-                                 <br /><strong>
-                                 -Data Scientist with Python Track on Datacamp 
-                                 <br />
-                                 -Structureing Machine Learning Projects on Coursera 
-                                 <br />
-                                 -Data Visualization </strong>
-                                 I'm excited to work with people to do things bigger than I could accomplish alone.
-                                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-                                <br /> 
-                                <br />
+                                 <strong><br/>
+                                 -Data Scientist with Python Track on Datacamp <br/>
+                                 -Structureing Machine Learning Projects on Coursera <br />
+                                 -Data Visualization </strong></p>
+                                 <p className="text">I'm excited to work with people to do things bigger than I could accomplish alone.
+                                I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.</p>
                             </Row>
                             <Row>
                                 { /* Social links */}
