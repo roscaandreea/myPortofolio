@@ -36,14 +36,7 @@ const About = () => {
                                  <br />
                                  -Structureing Machine Learning Projects on Coursera 
                                  <br />
-                                 -Cloud Engineering with Google Cloud on Coursera
-                                 <br />
-                                 -Front-End Web UI Frameworks and Tools: Bootstrap 4(Coursera)
-                                 <br />
-                                 -Front End Libraries on FreeCodeCamp
-                                 <br />
                                  -Data Visualization </strong>
-                                 < br />
                                  I'm excited to work with people to do things bigger than I could accomplish alone.
                                 <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                                 <br /> 
