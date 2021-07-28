@@ -28,6 +28,7 @@
     width: var(--card-width);
     height: var(--card-height);
     padding: 5px;
+    border-radius: 6px;
     position: relative;
     justify-content: center;
     align-items: center;
