@@ -25,6 +25,7 @@
 
   .cardItem {
     background-color: #101018f8;
+    color: #495057 !important;
     width: var(--card-width);
     height: var(--card-height);
     padding: 5px;
@@ -39,7 +40,7 @@
   }
   
   .cardItem:hover {
-    color: rgb(88 199 250 / 100%);
+    color: #6c757d !important;
     transition: color 1s;
   }
   .cardItem:hover:before, .cardItem:hover:after {
