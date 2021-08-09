@@ -17,7 +17,7 @@ const About = () => {
                         {/* Profile picture */}
                         <Col xs={12} md={6}>
                             <Row className="justify-content-center mb-2 mr-2 ">
-                                <Image className="profile justify-content-end shadow" alt="profile" src={Profile} />
+                                <Image className="profile justify-content-end shadow rounded" alt="profile" src={Profile} />
                             </Row>
                         </Col>
                         {/* About description + social link */}
