@@ -29,12 +29,11 @@ const EducationCertificates = () => {
                                     <br />
                                     <div className="text-left">
                                     <strong> Description: </strong>
-                                        <strong>Computer Software Engineering</strong> with 
-                                        courses developed in partnership with the IT companies
-                                            in response to their needs.
+                                        Software Engineering with 
+                                        courses developed in partnership with the IT companies.
                                     </div>
                                     <br />
-                                    <strong>Duration:</strong> October 2014 - Present
+                                    <strong>Start date:</strong> October 2014 - Present
                                     <br/>                                 
                                 </Card.Text>
                             </div>

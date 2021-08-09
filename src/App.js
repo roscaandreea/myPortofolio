@@ -16,7 +16,7 @@ import Skills from './pages/skills/skills.component';
 import Projects from './components/projects/projects.component';
 import EducationCertificates from './pages/education/education.component';
 import Contact from './pages/contact/contact.component';
-import Footer from './components/footer/footer.component';
+
 
 const  App = () => {
   return (
@@ -81,9 +81,6 @@ const  App = () => {
                </Slide>
            </Container>
           </div>
-          <hr />
-          <Footer />
-
        </div>
   );
 };
