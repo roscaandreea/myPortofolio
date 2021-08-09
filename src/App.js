@@ -50,7 +50,6 @@ const  App = () => {
           <div>
             <Container className="container-box rounded">
                 <Fade  duration={600}>
-                  <hr />
                   <Skills />
                </Fade>
             </Container>

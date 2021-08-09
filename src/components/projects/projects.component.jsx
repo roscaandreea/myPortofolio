@@ -25,7 +25,7 @@ import Image from "react-bootstrap/Image";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_Graphql from "../../assets/img/skills/GraphQL.svg";
-import L_D3 from "../../assets/img/skills/D3.png";
+import L_D3 from "../../assets/img/skills/d3.svg";
 import L_MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 
 const Projects = () => {

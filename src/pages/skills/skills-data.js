@@ -26,7 +26,7 @@ import L_SCIKIT_LEARN from "../../assets/img/skills/scikit_learn.svg";
 import L_PANDAS from "../../assets/img/skills/pandas.svg";
 import L_PLOTLY from "../../assets/img/skills/plotly.svg";
 import L_GRAPHQL from "../../assets/img/skills/GraphQL.svg";
-import L_D3 from "../../assets/img/skills/D3.png";
+import L_D3 from "../../assets/img/skills/d3.svg";
 import L_MATERIALUI from '../../assets/img/skills/material-ui.svg';
 
 
@@ -40,7 +40,7 @@ export const skills = {
         },
         {
             link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
-            imgAltText: "CSS 3",
+            imgAltText: "CSS3",
             imgSrc: L_CSS3,
             skillName: "CSS3",
         },
@@ -117,7 +117,7 @@ export const skills = {
             link: "https://expressjs.com/",
             imgAltText: "Express",
             imgSrc: L_EXPRESS,
-            skillName: "Express",
+            skillName: "Express.js",
           },
           {
             link: "https://graphql.org/",
