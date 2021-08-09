@@ -117,13 +117,7 @@ const Projects = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://github.com/roscaandreea/freecodecamp-projects"
-                                    target="_blank"
-                                >
-                                    SEE LIVE
-                                </UrlButton>
+                            <div className="d-flex justify-content-around flex-nowrap text-center">
                                 <UrlButton
                                     href="https://github.com/roscaandreea/freecodecamp-projects"
                                     target="_blank"
@@ -198,13 +192,7 @@ const Projects = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://github.com/roscaandreea/covid19Tracker"
-                                    target="_blank"
-                                >
-                                    SEE LIVE
-                                </UrlButton>
+                            <div className="d-flex justify-content-around flex-nowrap text-center">
                                 <UrlButton
                                     href="https://github.com/roscaandreea/covid19Tracker"
                                     target="_blank"
@@ -286,13 +274,7 @@ const Projects = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://github.com/roscaandreea/toDoReactAPP"
-                                    target="_blank"
-                                >
-                                    SEE LIVE
-                                </UrlButton>
+                            <div className="d-flex justify-content-around flex-nowrap text-center">
                                 <UrlButton
                                     href="https://github.com/roscaandreea/toDoReactAPP"
                                     target="_blank"
@@ -432,13 +414,7 @@ const Projects = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                   <UrlButton
-                                    href="https://github.com/roscaandreea/reactEventBookingApp"
-                                    target="_blank"
-                                   >
-                                    SEE LIVE
-                                </UrlButton>
+                            <div className="d-flex justify-content-around flex-nowrap text-center">
                                 <UrlButton
                                     href="https://github.com/roscaandreea/reactEventBookingApp"
                                     target="_black"
@@ -484,7 +460,7 @@ const Projects = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                            <div className="d-flex justify-content-around flex-nowrap text-center">
                                 <UrlButton
                                     href="https://www.coursera.org/account/accomplishments/specialization/certificate/EXFEE9XZQQ6P"
                                     target="_blank"
@@ -525,7 +501,7 @@ const Projects = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                            <div className="d-flex justify-content-around flex-nowrap text-center">
                                 <UrlButton
                                     href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720"
                                     target="_blank"
@@ -574,7 +550,7 @@ const Projects = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                            <div className="d-flex justify-content-around flex-nowrap text-center">
                                 <UrlButton
                                     href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE"
                                     target="_blank"
@@ -657,15 +633,9 @@ const Projects = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                            <div className="d-flex justify-content-around flex-nowrap text-center">
                                 <UrlButton
-                                    href="https://github.com/roscaandreea"
-                                    target="_blank"
-                                >
-                                    SEE LIVE
-                                </UrlButton>
-                                <UrlButton
-                                    href="https://github.com/roscaandreea"
+                                    href="https://github.com/roscaandreea/recipeApp"
                                     target="_blank"
                                 >
                                     SOURCE CODE
@@ -747,15 +717,9 @@ const Projects = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                            <div className="d-flex justify-content-around flex-nowrap text-center">
                                 <UrlButton
-                                    href="https://github.com/roscaandreea"
-                                    target="_blank"
-                                >
-                                    SEE LIVE
-                                </UrlButton>
-                                <UrlButton
-                                    href="https://github.com/roscaandreea"
+                                    href="https://github.com/roscaandreea/weatherApp"
                                     target="_blank"
                                 >
                                     SOURCE CODE

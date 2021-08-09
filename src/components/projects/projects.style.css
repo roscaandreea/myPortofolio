@@ -19,3 +19,9 @@
   .image-style1 {
     width: 3em;
   }
+
+  .textCenter{
+    display: flex !important;
+    align-items: center !important;
+    align-items: center !important;
+  }
