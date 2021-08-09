@@ -17,22 +17,22 @@ const About = () => {
                         {/* Profile picture */}
                         <Col xs={12} md={6}>
                             <Row className="justify-content-center mb-2 mr-2 ">
-                                <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
+                                <Image className="profile justify-content-end shadow" alt="profile" src={Profile} />
                             </Row>
                         </Col>
                         {/* About description + social link */}
                         <Col xs={12} md={6}>
-                            <Row className=" align-items-start p-2 my-details rounded">
+                            <Row className=" align-items-start p-3 my-details rounded shadow">
                                 { /* description */}
                                 <p className="text">Hi there! I am <strong>Andreea-Maria Rosca</strong></p>
                                  <br />
-                                 <p className="text">A passionate programmer and a learner, I'm always looking for new challenges with a special interest in Full Stack Web Development with React.js + Redux,Node.js + Express.js,MongoDB. A more complete list of interests can be found on my Linkedin (<a className="underlineText" href="https://www.linkedin.com/in/andreea-maria-rosca-6bb501140/">Open link</a>).</p>
+                                 <p className="text">A passionate programmer and a learner, I'm always looking for new challenges with a special interest in Full Stack Web Development with React.js + Redux,Node.js + Express.js,MongoDB. A more complete list of interests can be found on my <a className="underlineText" href="https://www.linkedin.com/in/andreea-maria-rosca-6bb501140/">Linkedin</a>.</p>
                                  <p className="text">I'm also passionate about Machine Learning and Data Visualization, which I discovered during my Computer Science bachelor studies.
-                                 I also took several courses in this area such as: 
+                                 I also took several courses in this area such as:&nbsp; 
                                  <ul className="list">
-                                    <li>Data Scientist with Python Track on Datacamp (<a className="underlineText" href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720">Open link</a>)</li>
-                                    <li>Structuring Machine Learning Projects on Coursera (<a className="underlineText" href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE">Open link</a>)</li>
-                                    <li>Data Visualization on FreeCodeCamp (<a className="underlineText" href="https://www.freecodecamp.org/certification/andreea_dev/data-visualization">Open link</a>)</li>
+                                    <li><a className="underlineText" href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720">Data Scientist with Python Track on Datacamp</a></li>
+                                    <li><a className="underlineText" href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE">Structuring Machine Learning Projects on Coursera</a></li>
+                                    <li><a className="underlineText" href="https://www.freecodecamp.org/certification/andreea_dev/data-visualization">Data Visualization on FreeCodeCamp</a></li>
                                  </ul>
                                  </p>
                                  <p className="text">I'm excited to work with people to deliver better and bigger projects than what could be accomplished individually.
@@ -40,7 +40,7 @@ const About = () => {
                             </Row>
                             <Row>
                                 { /* Social links */}
-                                <Col className="d-flex justify-content-center flex-wrap">
+                                <Col className="mt-2 d-flex justify-content-center flex-wrap">
                                     <div>
                                         <a href="#contact">
                                             <Button className="m-2 btn" variant="outline-primary">Let's talk</Button>

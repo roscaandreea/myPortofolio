@@ -1,3 +1,4 @@
+
 .about {
     background-color: transparent;
     font-size: 1.1em;
@@ -30,8 +31,12 @@
     text-decoration: none;
   }
 
-  .list{
-    display:inline-block;
-    border: 1px solid #212529;
-    padding:30px;
+  .underlineText:hover{
+    text-decoration: none;
   }
+
+
+
+
+
+
