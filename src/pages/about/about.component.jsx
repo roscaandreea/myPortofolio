@@ -24,17 +24,19 @@ const About = () => {
                         <Col xs={12} md={6}>
                             <Row className=" align-items-start p-2 my-details rounded">
                                 { /* description */}
-                                <p className="text">Hi there! I am <strong>&nbsp;Andreea-Maria Rosca</strong></p>
+                                <p className="text">Hi there! I am <strong>Andreea-Maria Rosca</strong></p>
                                  <br />
-                                 <p className="text">A passionate programmer and a Learner, always looking for new challenges. I am interested in Full Stack Web Development with React.js, Redux, Express.js, Node.js, and MongoDb as my tech stack.</p>
-                                 <p className="text">My second passion is Machine Learning and Data Visualization, which were discovered during faculty of Computer Science in Iasi.
-                                 I took several individual courses in this area of which to mention would be: 
-                                 <strong><br/>
-                                 -Data Scientist with Python Track on Datacamp <br/>
-                                 -Structureing Machine Learning Projects on Coursera <br />
-                                 -Data Visualization </strong></p>
-                                 <p className="text">I'm excited to work with people to do things bigger than I could accomplish alone.
-                                I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.</p>
+                                 <p className="text">A passionate programmer and a learner, I'm always looking for new challenges with a special interest in Full Stack Web Development with React.js + Redux,Node.js + Express.js,MongoDB. A more complete list of interests can be found on my Linkedin (<a className="underlineText" href="https://www.linkedin.com/in/andreea-maria-rosca-6bb501140/">Open link</a>).</p>
+                                 <p className="text">I'm also passionate about Machine Learning and Data Visualization, which I discovered during my Computer Science bachelor studies.
+                                 I also took several courses in this area such as: 
+                                 <ul className="list">
+                                    <li>Data Scientist with Python Track on Datacamp (<a className="underlineText" href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720">Open link</a>)</li>
+                                    <li>Structuring Machine Learning Projects on Coursera (<a className="underlineText" href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE">Open link</a>)</li>
+                                    <li>Data Visualization on FreeCodeCamp (<a className="underlineText" href="https://www.freecodecamp.org/certification/andreea_dev/data-visualization">Open link</a>)</li>
+                                 </ul>
+                                 </p>
+                                 <p className="text">I'm excited to work with people to deliver better and bigger projects than what could be accomplished individually.
+                                I love learning about new technologies,solving problems and how I can use them to build better and more scalable products.</p>
                             </Row>
                             <Row>
                                 { /* Social links */}

@@ -25,3 +25,13 @@
   .text{
     text-align: left;
   }
+
+  .underlineText{
+    text-decoration: none;
+  }
+
+  .list{
+    display:inline-block;
+    border: 1px solid #212529;
+    padding:30px;
+  }
