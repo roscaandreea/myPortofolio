@@ -33,11 +33,9 @@ const TitleMessage = () => {
             <div className="titleMessage">
                 <div className="heading">
                     <div className="main text-center mb-3">
-                        Hello, I am
+                        Hello,I am
                         <br />
-                        <span>
-                            <strong>Andreea-Maria Rosca</strong>
-                        </span>
+                        <span><strong>Andreea-Maria Rosca</strong></span>
                     </div>
                     <div className="sub">
                     <Typewriter
@@ -45,6 +43,7 @@ const TitleMessage = () => {
                             strings: ['Web Developer', 'Learner','Data Analyst'],
                             autoStart: true,
                             loop: true,
+                            delay: 150
                         }}
                     />
                     </div>
