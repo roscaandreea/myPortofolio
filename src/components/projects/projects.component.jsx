@@ -1,5 +1,5 @@
 import React from 'react';
-import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
+import { Timeline, Events, ImageEvent } from "@merc/react-timeline";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import './projects.style.css';
@@ -118,14 +118,7 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://github.com/roscaandreea/freecodecamp-projects"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
-                        
+                            <a href="https://github.com/roscaandreea/freecodecamp-projects" class="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
                             </div>
                         </div>
                     </ImageEvent>
@@ -194,14 +187,7 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://github.com/roscaandreea/covid19Tracker"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
-                        
+                            <a href="https://github.com/roscaandreea/covid19Tracker" class="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
                             </div>
                         </div>
                     </ImageEvent>
@@ -277,14 +263,7 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://github.com/roscaandreea/toDoReactAPP"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
-                        
+                            <a href="https://github.com/roscaandreea/toDoReactAPP" class="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
                             </div>
                         </div>
                     </ImageEvent>
@@ -418,13 +397,7 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://github.com/roscaandreea/reactEventBookingApp"
-                                    target="_black"
-                                    rel="noopener noreferrer"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
+                            <a href="https://github.com/roscaandreea/reactEventBookingApp" class="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
                             </div>
                         </div>
                     </ImageEvent>
@@ -465,13 +438,7 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://www.coursera.org/account/accomplishments/specialization/certificate/EXFEE9XZQQ6P"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SEE CREDENTIALE
-                                </UrlButton>
+                            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/EXFEE9XZQQ6P" class="url-button" target="_blank" rel="noopener noreferrer">SEE CREDENTIALE</a>
                             </div>
                         </div>
                     </ImageEvent>
@@ -507,13 +474,7 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SEE CREDENTIALE
-                                </UrlButton>
+                            <a href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720" class="url-button" target="_blank" rel="noopener noreferrer">SEE CREDENTIALE</a>
                             </div>
                         </div>
                     </ImageEvent>
@@ -557,13 +518,7 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SEE CREDENTIALE
-                                </UrlButton>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE" class="url-button" target="_blank" rel="noopener noreferrer">SEE CREDENTIALE</a>
                             </div>
                         </div>
                     </ImageEvent>
@@ -641,14 +596,7 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://github.com/roscaandreea/recipeApp"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
-                        
+                            <a href="https://github.com/roscaandreea/recipeApp" class="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
                             </div>
                         </div>
                     </ImageEvent>
@@ -726,14 +674,7 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://github.com/roscaandreea/weatherApp"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
-                        
+                            <a href="https://github.com/roscaandreea/weatherApp" class="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>      
                             </div>
                         </div>
                     </ImageEvent>
