@@ -47,7 +47,7 @@ const  App = () => {
         </Parallax>
        </div>
        { /* Skills Section */}
-          <div>
+          <div>  
             <Container className="container-box rounded">
                 <Fade  duration={600}>
                   <Skills />

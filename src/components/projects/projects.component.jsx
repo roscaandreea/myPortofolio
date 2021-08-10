@@ -121,6 +121,7 @@ const Projects = () => {
                                 <UrlButton
                                     href="https://github.com/roscaandreea/freecodecamp-projects"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     SOURCE CODE
                                 </UrlButton>
@@ -196,6 +197,7 @@ const Projects = () => {
                                 <UrlButton
                                     href="https://github.com/roscaandreea/covid19Tracker"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     SOURCE CODE
                                 </UrlButton>
@@ -278,6 +280,7 @@ const Projects = () => {
                                 <UrlButton
                                     href="https://github.com/roscaandreea/toDoReactAPP"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     SOURCE CODE
                                 </UrlButton>
@@ -418,6 +421,7 @@ const Projects = () => {
                                 <UrlButton
                                     href="https://github.com/roscaandreea/reactEventBookingApp"
                                     target="_black"
+                                    rel="noopener noreferrer"
                                 >
                                     SOURCE CODE
                                 </UrlButton>
@@ -464,6 +468,7 @@ const Projects = () => {
                                 <UrlButton
                                     href="https://www.coursera.org/account/accomplishments/specialization/certificate/EXFEE9XZQQ6P"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     SEE CREDENTIALE
                                 </UrlButton>
@@ -505,6 +510,7 @@ const Projects = () => {
                                 <UrlButton
                                     href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     SEE CREDENTIALE
                                 </UrlButton>
@@ -554,6 +560,7 @@ const Projects = () => {
                                 <UrlButton
                                     href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     SEE CREDENTIALE
                                 </UrlButton>
@@ -637,6 +644,7 @@ const Projects = () => {
                                 <UrlButton
                                     href="https://github.com/roscaandreea/recipeApp"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     SOURCE CODE
                                 </UrlButton>
@@ -721,6 +729,7 @@ const Projects = () => {
                                 <UrlButton
                                     href="https://github.com/roscaandreea/weatherApp"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     SOURCE CODE
                                 </UrlButton>

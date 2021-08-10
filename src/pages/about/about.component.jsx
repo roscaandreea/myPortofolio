@@ -26,13 +26,13 @@ const About = () => {
                                 { /* description */}
                                 <p className="text">Hi there! I am <strong>Andreea-Maria Rosca</strong></p>
                                  <br />
-                                 <p className="text">A passionate programmer and a learner, I'm always looking for new challenges with a special interest in Full Stack Web Development with React.js + Redux,Node.js + Express.js,MongoDB. A more complete list of interests can be found on my <a className="underlineText" href="https://www.linkedin.com/in/andreea-maria-rosca-6bb501140/">Linkedin</a>.</p>
+                                 <p className="text">A passionate programmer and a learner, I'm always looking for new challenges with a special interest in Full Stack Web Development with React.js + Redux,Node.js + Express.js,MongoDB. A more complete list of interests can be found on my <a className="underlineText" href="https://www.linkedin.com/in/andreea-maria-rosca-6bb501140/" rel="noopener">Linkedin</a>.</p>
                                  <p className="text">I'm also passionate about Machine Learning and Data Visualization, which I discovered during my Computer Science bachelor studies.
                                  I also took several courses in this area such as:&nbsp; 
                                  <ul className="list">
-                                    <li><a className="underlineText" href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720">Data Scientist with Python Track on Datacamp</a></li>
-                                    <li><a className="underlineText" href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE">Structuring Machine Learning Projects on Coursera</a></li>
-                                    <li><a className="underlineText" href="https://www.freecodecamp.org/certification/andreea_dev/data-visualization">Data Visualization on FreeCodeCamp</a></li>
+                                    <li><a className="underlineText" href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720" rel="noopener noreferrer">Data Scientist with Python Track on Datacamp</a></li>
+                                    <li><a className="underlineText" href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE" rel="noopener noreferrer">Structuring Machine Learning Projects on Coursera</a></li>
+                                    <li><a className="underlineText" href="https://www.freecodecamp.org/certification/andreea_dev/data-visualization" rel="noopener noreferrer">Data Visualization on FreeCodeCamp</a></li>
                                  </ul>
                                  </p>
                                  <p className="text">I'm excited to work with people to deliver better and bigger projects than what could be accomplished individually.
