@@ -1,6 +1,5 @@
 {
   "name": "my_portofolio",
-  "homepage": "https://roscaandreea.github.io/myPortofolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
