@@ -1,39 +1,23 @@
-/**
- * Welcome to your Workbox-powered service worker!
- *
- * You'll need to register this file in your web app and you should
- * disable HTTP caching for this file too.
- * See https://goo.gl/nhQhGp
- *
- * The rest of the code is auto-generated. Please don't update this file
- * directly; instead, make changes to your Workbox build configuration
- * and re-run your build process.
- * See https://goo.gl/2aRDsh
- */
+importScripts("/precache-manifest.445c0fec081dd435051ee3977eef888b.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+workbox.precaching.precacheAndRoute(self.__precacheManifest || []);
+self.addEventListener('install', event => {
+    const asyncInstall = new Promise(resolve => {
+      console.log("Waiting to resolve...")
+      setTimeout(resolve, 5000)
+    })
+    event.waitUntil(asyncInstall)
+  });
 
-importScripts(
-  "/myPortofolio/precache-manifest.a6ec0099352d9e298f25b06e3d2e351b.js"
-);
+  self.addEventListener('activate', event => {
+    console.log('activate')
+  });
 
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
-});
+  workbox.routing.registerRoute(
+    new RegExp('https:.*min\.(css|js)'),
+    workbox.strategies.staleWhileRevalidate({
+      cacheName: 'cache'
+    })
+  );
 
-workbox.core.clientsClaim();
 
-/**
- * The workboxSW.precacheAndRoute() method efficiently caches and responds to
- * requests for URLs in the manifest.
- * See https://goo.gl/S9QRab
- */
-self.__precacheManifest = [].concat(self.__precacheManifest || []);
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
-
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/myPortofolio/index.html"), {
-  
-  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
-});
