@@ -6,6 +6,15 @@ self.addEventListener('install', event => {
     })
     event.waitUntil(asyncInstall)
   });
+
   self.addEventListener('activate', event => {
     console.log('activate')
   });
+
+  workbox.routing.registerRoute(
+    new RegExp('https:.*min\.(css|js)'),
+    workbox.strategies.staleWhileRevalidate({
+      cacheName: 'cache'
+    })
+  );
+
