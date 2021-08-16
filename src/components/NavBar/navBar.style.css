@@ -1,29 +1,25 @@
 .logo {
     width: 20%;
-  }
-  
-  .nav-theme {
+    height: 20%;
+  } 
+.nav-theme {
     background-color: #101018f8;
     font-size: 20px;
-  }
-  
-  .animate-navbar {
+  }  
+.animate-navbar {
     box-shadow: 1px 1px 1px #222;
     animation: moveDown 0.5s ease-in-out;
   }
-
-  @property --rotate {
+@property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
     inherits: false;
-  }
-  
-  :root {
+  }  
+:root {
     --card-height: 7vh;
     --card-width: 15vh;
   }
-
-  .cardItem {
+.cardItem {
     background-color: #101018f8;
     color: #495057 !important;
     width: var(--card-width);
@@ -37,19 +33,16 @@
     display: flex;
     cursor: pointer;
     margin-right: 20px;
-  }
-  
-  .cardItem:hover {
+  } 
+.cardItem:hover {
     color: #6c757d !important;
     transition: color 1s;
   }
-  .cardItem:hover:before, .cardItem:hover:after {
+.cardItem:hover:before, .cardItem:hover:after {
     animation: none;
     opacity: 0;
-  }
-  
-  
-  .cardItem::before {
+  } 
+.cardItem::before {
     content: "";
     width: 104%;
     height: 102%;
@@ -63,8 +56,7 @@
       left: -2%;
       animation: spin 2.5s linear infinite;
   }
-  
-  .cardItem::after {
+.cardItem::after {
     position: absolute;
     content: "";
     top: calc(var(--card-height) / 6);
@@ -82,9 +74,8 @@
       opacity: 1;
     transition: opacity .5s;
     animation: spin 2.5s linear infinite;
-  }
-  
-  @keyframes spin {
+  } 
+@keyframes spin {
     0% {
       --rotate: 0deg;
     }
@@ -92,8 +83,7 @@
       --rotate: 360deg;
     }
   }
-  
-  @keyframes moveDown {
+@keyframes moveDown {
     from {
       transform: translateY(-5rem);
     }

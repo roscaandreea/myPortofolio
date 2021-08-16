@@ -2,27 +2,22 @@
     transition: transform 0.3s;
     cursor: pointer;
   }
-  
-  .focus:hover {
+.focus:hover {
     transform: scale(1.05);
   }
-  
-  .card-title {
+.card-title {
     font-size: 2em;
     font-weight: 700;
   }
-  
-  .image-style {
+.image-style {
     width: 3em;
   }
-  
-  .font-details {
+.font-details {
     font-size: 3em;
     font-weight: 500;
     color: #0F4C81;
   }
-  
-  .font-details-b {
+.font-details-b {
     font-size: 3em;
     font-weight: 500;
     color: #ffffff;

@@ -1,37 +1,30 @@
-
 .about {
     background-color: transparent;
     font-size: 1.1em;
   }
-  
-  .profile {
-    max-width: 18em;
+.profile {
+    width: 18em;
+    height: 24em;
   }
-  
-  .my-details {
+.my-details {
     background-color: rgba(255, 255, 255, 0.747);
   }
-  
-  .btn{
+.btn{
       font-weight: bold;
       box-shadow: 3px 6px #888888;
   }
-
-  .font-details {
+.font-details {
     font-size: 3em;
     font-weight: 500;
     color: #0F4C81;
   }
-
-  .text{
+.text{
     text-align: left;
   }
-
-  .underlineText{
+.underlineText{
     text-decoration: none;
   }
-
-  .underlineText:hover{
+.underlineText:hover{
     text-decoration: none;
   }
 
