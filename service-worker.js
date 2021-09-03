@@ -1,4 +1,4 @@
-importScripts("/myPortofolio/precache-manifest.63e03d166e1fe1ef288de526843d7de0.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.ec4a0782cf7bec43b6eaa499a5c4c84c.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 workbox.precaching.precacheAndRoute(self.__precacheManifest || []);
 self.addEventListener('install', event => {
