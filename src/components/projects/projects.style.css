@@ -38,3 +38,11 @@
 .text-left{
   font-weight: normal;
 }
+
+.buttons-source{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  
+  
+}

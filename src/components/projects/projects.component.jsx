@@ -185,8 +185,9 @@ const Projects = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="d-flex justify-content-around flex-nowrap text-center">
+                            <div className="d-flex justify-content-around flex-nowrap text-center buttons-source">
                             <a href="https://github.com/roscaandreea/covid19Tracker" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
+                            <a href="https://covid-19-dashboard-722e8.web.app" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SEE LIVE</a>
                             </div>
                         </div>
                     </ImageEvent>
