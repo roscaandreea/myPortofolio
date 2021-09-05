@@ -37,7 +37,7 @@ const Projects = () => {
                      {/* Projects: freeCodeCamp  */}
                      <ImageEvent
                         date="In progress..."
-                        className="text-center title"
+                        className="text-center title-section"
                         text="FreeCodeCamp Projects"
                         src={L_ReactProjectFreeCodeCamp}
                         alt="project freeCodecamp"
@@ -125,7 +125,7 @@ const Projects = () => {
                     {/* Project: Covid Tracker App  */}
                     <ImageEvent
                         date="08/04/2021"
-                        className="text-center title"
+                        className="text-center title-section"
                         text="React Covid Dasboard"
                         src={L_ReactCovidTracker}
                         alt="React Covid Tracker App"
@@ -193,7 +193,7 @@ const Projects = () => {
                     {/* Project: Todo App  */}
                     <ImageEvent
                         date="07/10/2020"
-                        className="text-center title"
+                        className="text-center title-section"
                         text="React ToDo App"
                         src={L_ReactToDoApp}
                         alt="React ToDo App"
@@ -269,7 +269,7 @@ const Projects = () => {
                     {/* Project: Event Booking */}
                     <ImageEvent
                         date="10/09/2020"
-                        className="text-center title"
+                        className="text-center title-section"
                         text="EventBooking App"
                         src={L_EventBooking}
                         alt="Event Booking App"
@@ -403,7 +403,7 @@ const Projects = () => {
                     {/* Certificates: Cloud Engineer */}
                     <ImageEvent
                         date="28/05/2020"
-                        className="text-center title"
+                        className="text-center title-section"
                         text="Cloud Engineer"
                         src={L_CloudEngineer}
                         alt="Cloud Engineer"
@@ -444,7 +444,7 @@ const Projects = () => {
                     {/* Certificates: Data Science */}
                     <ImageEvent
                         date="28/04/2020"
-                        className="text-center title"
+                        className="text-center title-section"
                         text="Data Science"
                         src={L_DataScience}
                         alt="Data Science"
@@ -480,7 +480,7 @@ const Projects = () => {
                     {/* Certificates: ML */}
                     <ImageEvent
                         date="05/05/2020"
-                        className="text-center title"
+                        className="text-center title-section"
                         text="Structuring Machine Learning Projects"
                         src={L_ML}
                         alt="Machine Learning Structure"
@@ -524,7 +524,7 @@ const Projects = () => {
                     {/* Project: Recipe App  */}
                     <ImageEvent
                         date="12/07/2020"
-                        className="text-center title"
+                        className="text-center title-section"
                         text="React Recipe App"
                         src={L_RecipeApp}
                         alt="React Recipe App"
@@ -602,7 +602,7 @@ const Projects = () => {
                     { /* Project: Temp App */}
                     <ImageEvent
                         date="12/07/2020"
-                        className="text-center title"
+                        className="text-center title-section"
                         text="Weather App"
                         src={L_TempApp}
                         alt="Weather App"
