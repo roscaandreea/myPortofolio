@@ -43,19 +43,19 @@ const About = () => {
                                 <Col className="mt-2 d-flex justify-content-center flex-wrap">
                                     <div>
                                         <a href="#contact">
-                                            <Button className="m-2 btn" variant="outline-primary">Let's talk</Button>
+                                            <Button className="m-2 btn-socials" variant="outline-primary">Let's talk</Button>
                                         </a>
                                     </div>
                                     <div>
                                         <a href="https://github.com/roscaandreea" target="_blank" rel="noopener noreferrer">
-                                            <Button className="m-2 btn" variant="outline-dark">
+                                            <Button className="m-2 btn-socials" variant="outline-dark">
                                                 GitHub
                                             </Button>
                                         </a>
                                     </div>
                                     <div>
                                         <a href="https://www.linkedin.com/in/andreea-maria-rosca-6bb501140/" target="_blank" rel="noopener noreferrer">
-                                            <Button className="m-2 btn" variant="outline-info">
+                                            <Button className="m-2 btn-socials" variant="outline-info">
                                                 LinkedIn
                                             </Button>
                                         </a>

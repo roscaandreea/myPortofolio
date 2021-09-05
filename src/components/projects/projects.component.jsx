@@ -37,8 +37,8 @@ const Projects = () => {
                      {/* Projects: freeCodeCamp  */}
                      <ImageEvent
                         date="In progress..."
-                        className="text-center"
-                        text="freeCodeCamp Projects"
+                        className="text-center title"
+                        text="FreeCodeCamp Projects"
                         src={L_ReactProjectFreeCodeCamp}
                         alt="project freeCodecamp"
                     >
@@ -49,8 +49,8 @@ const Projects = () => {
                                         <Accordion.Toggle
                                             as={Card.Header}
                                             eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
+                                            className="p-2 text-center project-details"
+                                        ><i class="fa fa-angle-right icon-detail" aria-hidden="true"></i>
                                             PROJECT DETAILS
                                         </Accordion.Toggle>
 
@@ -118,15 +118,15 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                            <a href="https://github.com/roscaandreea/freecodecamp-projects" className="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
+                            <a href="https://github.com/roscaandreea/freecodecamp-projects" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
                             </div>
                         </div>
                     </ImageEvent>
                     {/* Project: Covid Tracker App  */}
                     <ImageEvent
                         date="08/04/2021"
-                        className="text-center"
-                        text="React Covid Tracker App"
+                        className="text-center title"
+                        text="React Covid Dasboard"
                         src={L_ReactCovidTracker}
                         alt="React Covid Tracker App"
                     >
@@ -137,11 +137,10 @@ const Projects = () => {
                                         <Accordion.Toggle
                                             as={Card.Header}
                                             eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
+                                            className="p-2 text-center project-details"
+                                        ><i class="fa fa-angle-right icon-detail" aria-hidden="true"></i>
                                             PROJECT DETAILS
                                         </Accordion.Toggle>
-
                                         <Accordion.Collapse eventKey="0" className="text-left">
                                             <Card.Body>
                                                 <strong>Description:</strong> This is a Covid Dashboard App created with React and Material UI
@@ -187,14 +186,14 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                            <a href="https://github.com/roscaandreea/covid19Tracker" className="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
+                            <a href="https://github.com/roscaandreea/covid19Tracker" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
                             </div>
                         </div>
                     </ImageEvent>
                     {/* Project: Todo App  */}
                     <ImageEvent
                         date="07/10/2020"
-                        className="text-center"
+                        className="text-center title"
                         text="React ToDo App"
                         src={L_ReactToDoApp}
                         alt="React ToDo App"
@@ -206,8 +205,8 @@ const Projects = () => {
                                         <Accordion.Toggle
                                             as={Card.Header}
                                             eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
+                                            className="p-2 text-center project-details"
+                                        ><i class="fa fa-angle-right icon-detail" aria-hidden="true"></i>
                                             PROJECT DETAILS
                                         </Accordion.Toggle>
 
@@ -263,14 +262,14 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                            <a href="https://github.com/roscaandreea/toDoReactAPP" className="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
+                            <a href="https://github.com/roscaandreea/toDoReactAPP" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
                             </div>
                         </div>
                     </ImageEvent>
                     {/* Project: Event Booking */}
                     <ImageEvent
                         date="10/09/2020"
-                        className="text-center"
+                        className="text-center title"
                         text="EventBooking App"
                         src={L_EventBooking}
                         alt="Event Booking App"
@@ -282,8 +281,8 @@ const Projects = () => {
                                         <Accordion.Toggle
                                             as={Card.Header}
                                             eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
+                                            className="p-2 text-center project-details"
+                                        ><i class="fa fa-angle-right icon-detail" aria-hidden="true"></i>
                                             PROJECT DETAILS
                                         </Accordion.Toggle>
 
@@ -397,14 +396,14 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                            <a href="https://github.com/roscaandreea/reactEventBookingApp" className="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
+                            <a href="https://github.com/roscaandreea/reactEventBookingApp" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
                             </div>
                         </div>
                     </ImageEvent>
                     {/* Certificates: Cloud Engineer */}
                     <ImageEvent
                         date="28/05/2020"
-                        className="text-center"
+                        className="text-center title"
                         text="Cloud Engineer"
                         src={L_CloudEngineer}
                         alt="Cloud Engineer"
@@ -416,8 +415,8 @@ const Projects = () => {
                                         <Accordion.Toggle
                                             as={Card.Header}
                                             eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
+                                            className="p-2 text-center project-details"
+                                        ><i class="fa fa-angle-right icon-detail" aria-hidden="true"></i>
                                             CERTIFICATES DETAILS
                                         </Accordion.Toggle>
 
@@ -438,14 +437,14 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/EXFEE9XZQQ6P" className="url-button" target="_blank" rel="noopener noreferrer">SEE CREDENTIALE</a>
+                            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/EXFEE9XZQQ6P" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SEE CREDENTIALE</a>
                             </div>
                         </div>
                     </ImageEvent>
                     {/* Certificates: Data Science */}
                     <ImageEvent
                         date="28/04/2020"
-                        className="text-center"
+                        className="text-center title"
                         text="Data Science"
                         src={L_DataScience}
                         alt="Data Science"
@@ -457,8 +456,8 @@ const Projects = () => {
                                         <Accordion.Toggle
                                             as={Card.Header}
                                             eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
+                                            className="p-2 text-center project-details"
+                                        ><i class="fa fa-angle-right icon-detail" aria-hidden="true"></i>
                                             CERTIFICATES DETAILS
                                         </Accordion.Toggle>
 
@@ -474,14 +473,14 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                            <a href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720" className="url-button" target="_blank" rel="noopener noreferrer">SEE CREDENTIALE</a>
+                            <a href="https://www.datacamp.com/statement-of-accomplishment/track/7af1c7614badfe8ac8f7102dd71a5a44495b1720" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SEE CREDENTIALE</a>
                             </div>
                         </div>
                     </ImageEvent>
                     {/* Certificates: ML */}
                     <ImageEvent
                         date="05/05/2020"
-                        className="text-center"
+                        className="text-center title"
                         text="Structuring Machine Learning Projects"
                         src={L_ML}
                         alt="Machine Learning Structure"
@@ -493,8 +492,8 @@ const Projects = () => {
                                         <Accordion.Toggle
                                             as={Card.Header}
                                             eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
+                                            className="p-2 text-center project-details"
+                                        ><i class="fa fa-angle-right icon-detail" aria-hidden="true"></i>
                                             CERTIFICATES DETAILS
                                         </Accordion.Toggle>
 
@@ -518,14 +517,14 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                            <a href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE" className="url-button" target="_blank" rel="noopener noreferrer">SEE CREDENTIALE</a>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/7YETAYMLNXBE" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SEE CREDENTIALE</a>
                             </div>
                         </div>
                     </ImageEvent>
                     {/* Project: Recipe App  */}
                     <ImageEvent
                         date="12/07/2020"
-                        className="text-center"
+                        className="text-center title"
                         text="React Recipe App"
                         src={L_RecipeApp}
                         alt="React Recipe App"
@@ -537,8 +536,8 @@ const Projects = () => {
                                         <Accordion.Toggle
                                             as={Card.Header}
                                             eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
+                                            className="p-2 text-center project-details"
+                                        ><i class="fa fa-angle-right icon-detail" aria-hidden="true"></i>
                                             PROJECT DETAILS
                                         </Accordion.Toggle>
 
@@ -596,14 +595,14 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                            <a href="https://github.com/roscaandreea/recipeApp" className="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
+                            <a href="https://github.com/roscaandreea/recipeApp" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>
                             </div>
                         </div>
                     </ImageEvent>
                     { /* Project: Temp App */}
                     <ImageEvent
                         date="12/07/2020"
-                        className="text-center"
+                        className="text-center title"
                         text="Weather App"
                         src={L_TempApp}
                         alt="Weather App"
@@ -615,8 +614,8 @@ const Projects = () => {
                                         <Accordion.Toggle
                                             as={Card.Header}
                                             eventKey="0"
-                                            className="p-2 text-center accordian-main"
-                                        >
+                                            className="p-2 text-center project-details"
+                                        ><i class="fa fa-angle-right icon-detail" aria-hidden="true"></i>
                                             PROJECT DETAILS
                                         </Accordion.Toggle>
 
@@ -674,7 +673,7 @@ const Projects = () => {
                                 </Accordion>
                             </div>
                             <div className="d-flex justify-content-around flex-nowrap text-center">
-                            <a href="https://github.com/roscaandreea/weatherApp" className="url-button" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>      
+                            <a href="https://github.com/roscaandreea/weatherApp" className="btn btn-outline-info btn-source" target="_blank" rel="noopener noreferrer">SOURCE CODE</a>      
                             </div>
                         </div>
                     </ImageEvent>
