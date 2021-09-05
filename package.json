@@ -28,8 +28,9 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
   },
+  "homepage": "https://roscaandreea.github.io/myPortofolio/",
   "eslintConfig": {
     "extends": "react-app"
   },
